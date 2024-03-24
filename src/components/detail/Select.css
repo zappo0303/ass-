@@ -1,0 +1,70 @@
+.luachon {
+    display: flex;
+    margin-left: 150px;
+}
+
+.sapxep p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sapxep {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: solid black;
+    margin-left: 50px;
+    margin-left: 30px;
+}
+
+.detailcard {
+    width: 700px;
+}
+
+.anh {
+    width: 100%;
+    text-align:  center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.list {
+    border: solid;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.list>div {
+    flex: 1;
+    /* Chia đều không gian giữa các div con */
+    margin-right: 60px;
+    /* Khoảng cách giữa các div */
+}
+
+.ml-20px {
+    margin-left: 10px;
+    /* Khoảng cách bên trái cho phần tử có lớp ml-20px */
+}
+
+.ticket {
+    text-align:  center;
+    display: flex; /* Sử dụng flexbox để căn chỉnh các phần tử con */
+  }
+  
+  .ticket > div {
+    flex: 1; /* Chia đều không gian cho các phần tử con */
+    padding: 10px; /* Tùy chỉnh padding nếu cần thiết */
+  }
+.btn-ticket h3 {
+    font-size: 20px;
+    color:  blue;
+}
+.btn-ticket button {
+    margin-left: 150px;
+    background-color: rgba(231, 178, 19, 0.913);
+    width: 200px;
+    height: 50px;
+}
+.ticket p{
+    font-size: 20px;
+}

@@ -1,0 +1,55 @@
+.footer {
+    background: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    /* Đặt chiều cao tùy ý */
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #333;
+    /* Màu chữ */
+}
+
+/* Tùy chỉnh style khi hover */
+.footer-list a:hover {
+    color: blue;
+    /* Màu chữ khi hover */
+}
+
+.footer-list {
+    display: flex;
+    /* Sử dụng flexbox để hiển thị các phần tử ngang */
+    gap: 300px;
+    /* Khoảng cách giữa các phần tử */
+}
+
+.footer-list>div {
+    flex: 1;
+    /* Phần tử div chiếm toàn bộ phần chia của flexbox */
+    padding: 20px;
+    /* Khoảng cách nội dung với mép của div */
+}
+
+.footer-list p {
+    font-weight: bold;
+    /* Chữ in đậm */
+    margin-bottom: 10px;
+    /* Khoảng cách với các phần tử khác */
+}
+
+.footer-list a {
+    text-decoration: none;
+    /* Loại bỏ gạch chân mặc định của thẻ a */
+    display: block;
+    /* Hiển thị dạng block để chiếm hết chiều rộng của div */
+    margin-bottom: 8px;
+    /* Khoảng cách giữa các link */
+}
+.footer-end h3 {
+    font-size:  30px;
+}
+.footer-end p {
+    font-size: 20px;
+}

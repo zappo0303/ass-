@@ -1,0 +1,73 @@
+.slick-slider {
+    margin-top: 50px;
+}
+
+.slick-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    /* Đặt chiều cao tùy ý */
+}
+
+.slick-list {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Không cho các phần tử chuyển dòng */
+    overflow-x: auto;
+    /* Cho phép cuộn ngang khi các phần tử vượt quá khung */
+    gap: 20px;
+}
+
+.slick-title{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.route {
+    position: relative;
+    margin: 20px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.route p {
+    position: absolute;
+    font-weight: bold;
+    top: 150px; /* Điều chỉnh khoảng cách từ trên xuống dưới */
+    left: 10px; /* Điều chỉnh khoảng cách từ trái sang phải */
+    background-color: rgba(255, 255, 255, 0.7); /* Màu nền của phần tử p */
+    padding: 5px 10px; /* Khoảng cách giữa nội dung và viền */
+    border-radius: 5px; /* Bo tròn các góc */
+  }
+
+.route img {
+    width: 100%;
+    height: 200px;
+    /* Đặt chiều cao cố định cho ảnh */
+    object-fit: cover;
+}
+
+.route-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.route-info h3 {
+    margin: 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+.route-info p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.route-info span {
+    font-weight: bold;
+    color: #e74c3c;
+}

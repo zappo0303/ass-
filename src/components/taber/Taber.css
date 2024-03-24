@@ -1,0 +1,68 @@
+.alltab {
+    margin-top: 10px;
+    border-radius: 20px;
+}
+
+.tab {
+    display: flex;
+    justify-content: space-between;
+    /* Cho phép các phần tử chuyển dòng khi không đủ không gian */
+}
+
+.col {
+    flex: 1;
+    /* Chia đều không gian cho các cột */
+    margin: 0 10px;
+    /* Tạo khoảng cách giữa các cột */
+}
+
+/* Định dạng input và button */
+.submit-btn {
+    width: 200px;
+    /* Đảm bảo input và button chiếm toàn bộ width của cột */
+}
+
+.btn-tab {
+    background-color: #f0ad4e;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: bold;
+}
+
+.btn-tab {
+    margin-top: 10px;
+    /* Tạo khoảng cách từ các cột xuống nút Tìm kiếm */
+    align-self: center;
+    /* Căn nút Tìm kiếm vào giữa */
+}
+
+.alltab {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tabtong {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .tab {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid;
+  }
+  
+  .col {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .btn-tab {
+    margin-top: 10px;
+  }

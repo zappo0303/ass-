@@ -1,0 +1,12 @@
+.nav a {
+    text-decoration: none; /* Xóa bỏ dấu gạch chân dưới */
+    color: inherit; /* Sử dụng màu chữ mặc định của theme */
+    color: white;
+}
+.nav {
+    display: flex;
+    gap:20px;
+    list-style:  none;
+    margin-right: 50px;
+    
+}

@@ -1,0 +1,202 @@
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered-form {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    background: rgba(0, 0, 0, 0.5);
+    /* Transparency with black background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.centered-nav {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    /* Transparency with black background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-input {
+    margin: 10px 0;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+}
+
+.submit-btn {
+    background-color: #f0ad4e;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-weight: bold;
+
+}
+
+.submit-btn:hover {
+    background-color: #ec971f;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 430px;
+}
+
+.horizontal-form {
+    display: flex;
+    justify-content: space-between;
+    /* Căn các cột theo chiều ngang */
+    align-items: center;
+    /* Căn giữa các cột theo chiều dọc */
+}
+
+.horizontal-nav {
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    /* Căn các mục nav theo chiều ngang */
+    list-style-type: none;
+    /* Ẩn dấu chấm đầu dòng của mục */
+    padding: 0;
+    /* Xóa khoảng đệm mặc định của ul */
+}
+
+.horizontal-nav li {
+    margin-right: 20px;
+    /* Khoảng cách giữa các mục */
+}
+
+.horizontal-nav li a {
+    text-decoration: none;
+    /* Xóa gạch chân dưới của liên kết */
+    color: #000;
+    /* Màu chữ mặc định */
+    transition: color 0.3s ease;
+    /* Hiệu ứng màu khi hover */
+}
+
+.horizontal-nav li a:hover {
+    text-decoration: #2474E5;
+    color: #2474E5;
+    /* Màu khi hover */
+}
+
+.col {
+    flex: 1;
+    /* Các cột chiếm đủ không gian theo chiều ngang */
+    margin-right: 10px;
+    /* Khoảng cách giữa các cột */
+}
+
+.button {
+    background-color: rgb(214, 214, 32);
+}
+
+.tabtong {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tab {
+
+    padding: 5px 20px;
+    /* Điều chỉnh khoảng cách và padding cho tab */
+    margin-right: 10px;
+    /* Khoảng cách giữa các tab */
+    background-color: #f0f0f0;
+    /* Màu nền của tab */
+    border-radius: 5px;
+    /* Bo góc cho tab */
+    cursor: pointer;
+    /* Biểu tượng chuột khi hover */
+    display: flex;
+    align-items: center;
+    color: #000;
+    /* Căn giữa icon và text */
+}
+
+.tab i {
+    margin-right: 5px;
+    /* Khoảng cách giữa icon và text */
+}
+
+/* Hiệu ứng hover */
+.tab:hover {
+    background-color: #e0e0e0;
+    /* Màu nền khi hover */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 5px;
+    z-index: 1;
+    /* Đảm bảo văn bản hiển thị trên ảnh */
+}
+
+.text-overlay p {
+    margin: 0;
+    /* Xóa margin mặc định của đoạn văn bản */
+    font-size: 30px;
+}
+
+.centered-pod {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Màu nền của pod */
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* Căn các pod ngang nhau */
+    /* Độ rộng của pod */
+    /* Giới hạn độ rộng tối đa của pod */
+}
+
+.pod-tong {
+    margin-left: 80px;
+    display: flex;
+    /* Các pod chiếm đều không gian ngang */
+    text-align: center;
+    /* Căn giữa nội dung trong pod */
+}
+.pod-tong :hover {
+   color: yellow;
+}
+.pod-tong a{
+    color:white;
+    font-size: 20px;
+}
