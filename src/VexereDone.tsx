@@ -1,6 +1,9 @@
+import Pay from "./components/pay/Pay"
+
 const VexereDone = () => {
-  return (
-    <div className="text-center text-red-500">Thanh Toán</div>
+  return ( <div>
+     <Pay/>
+  </div>
   )
 }
 
